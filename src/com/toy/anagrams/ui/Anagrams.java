@@ -268,7 +268,7 @@ public class Anagrams extends JFrame {
             feedbackLabel.setText("Correct! Try a new word!");
             getRootPane().setDefaultButton(nextTrial);
         } else {
-            feedbackLabel.setText("Try again, sucker!");
+            feedbackLabel.setText("You never learn, do you?");
             guessedWord.setText("");
         }
 
